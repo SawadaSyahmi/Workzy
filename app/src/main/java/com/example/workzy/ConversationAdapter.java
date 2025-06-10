@@ -10,11 +10,11 @@ import java.util.ArrayList;
 
 public class ConversationAdapter extends RecyclerView.Adapter<ConversationAdapter.ConversationViewHolder> {
     ArrayList<ConversationModel> conversationList;
-
+//
     public ConversationAdapter(ArrayList<ConversationModel> conversationList) {
         this.conversationList = conversationList;
     }
-
+//
     @NonNull
     @Override
     public ConversationViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
