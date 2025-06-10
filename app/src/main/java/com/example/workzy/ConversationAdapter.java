@@ -14,7 +14,7 @@ public class ConversationAdapter extends RecyclerView.Adapter<ConversationAdapte
     public ConversationAdapter(ArrayList<ConversationModel> conversationList) {
         this.conversationList = conversationList;
     }
-
+//
     @NonNull
     @Override
     public ConversationViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
